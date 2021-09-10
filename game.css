@@ -31,7 +31,7 @@ input + label {
 	display: block;
 	z-index: 5;
 	transform: translate(-50%, -50%);
-	background: url(../img/duck.png) no-repeat left center;
+	background: url(./duck.png) no-repeat left center;
 	background-position: -138px 0;
 }
 
@@ -46,61 +46,61 @@ input:checked + label {
 .duck:nth-last-of-type(1) {
 	animation: duckfly linear 1s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(2) {
 	animation: duckfly linear 2s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(3) {
 	animation: duckfly linear 3s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(4) {
 	animation: duckfly linear 4s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(5) {
 	animation: duckfly linear 5s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(6) {
 	animation: duckfly linear 6s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(7) {
 	animation: duckfly linear 7s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(8) {
 	animation: duckfly linear 8s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(9) {
 	animation: duckfly linear 9s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(10) {
 	animation: duckfly linear 10s infinite;
 	animation-direction: alternate;
-	background: url(../img/aim.png), text;
+	background: url(./aim.png), text;
 }
 
 .score {
@@ -133,7 +133,7 @@ input:checked {
 body {
 	margin: 0;
 	padding: 0;
-	cursor: url(../img/aim.png), text;
+	cursor: url(./aim.png), text;
 	overflow: hidden;
 }
 
@@ -144,5 +144,5 @@ body:before {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background: url(../img/background.png) repeat-x bottom left;
+	background: url(./background.png) repeat-x bottom left;
 }
