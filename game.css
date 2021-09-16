@@ -41,6 +41,26 @@
 		left: 80%;
 		top: 10%;
 	}
+	0% {
+		left: 10%;
+		top: 10%;
+	}
+	10% {
+		left: 20%;
+		top: 20%;
+	}
+	20% {
+		left: 30%;
+		top: 30%;
+	}
+	30% {
+		left: 50%;
+		top: 40%;
+	}
+	40% {
+		left: 60%;
+		top: 50%;
+	}
 }
 
 input + label {
@@ -120,6 +140,36 @@ input:checked + label {
 
 .duck:nth-last-of-type(10) {
 	animation: duckfly linear 10s infinite;
+	animation-direction: alternate;
+	background: url(./aim.png), text;
+}
+
+.duck:nth-last-of-type(11) {
+	animation: duckfly linear 11s infinite;
+	animation-direction: alternate;
+	background: url(./aim.png), text;
+}
+
+.duck:nth-last-of-type(12) {
+	animation: duckfly linear 12s infinite;
+	animation-direction: alternate;
+	background: url(./aim.png), text;
+}
+
+.duck:nth-last-of-type(13) {
+	animation: duckfly linear 13s infinite;
+	animation-direction: alternate;
+	background: url(./aim.png), text;
+}
+
+.duck:nth-last-of-type(14) {
+	animation: duckfly linear 14s infinite;
+	animation-direction: alternate;
+	background: url(./aim.png), text;
+}
+
+.duck:nth-last-of-type(15) {
+	animation: duckfly linear 15s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
