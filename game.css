@@ -5,43 +5,40 @@
 		left: 150%;
 		top: 10%;
 	}
-	25% {
-		left: 80%;
+	10% {
+		left: 140%;
+		top: 20%;
+	}
+	20% {
+		left: 130%;
+		top: 30%;
+	}
+	30% {
+		left: 120%;
+		top: 40%;
+	}
+	40% {
+		left: 110%;
 		top: 50%;
 	}
 	50% {
-		left: 50%;
-		top: 30%;
+		left: 100%;
+		top: 60%;
 	}
-	75% {
-		left: 30%;
-		top: 40%;
+	60% {
+		left: 90%;
+		top: 70%;
 	}
-	100% {
-		left: -50%;
-		top: 10%;
-	}
-}
-
-@keyframes duckfly1 {
-	0% {
-		left: 150%;
-		top: 10%;
-	}
-	25% {
+	70% {
 		left: 80%;
+		top: 60%;
+	}
+	80% {
+		left: 70%;
 		top: 50%;
 	}
-	50% {
-		left: 50%;
-		top: 30%;
-	}
-	75% {
-		left: 30%;
-		top: 40%;
-	}
 	100% {
-		left: -50%;
+		left: 80%;
 		top: 10%;
 	}
 }
@@ -97,32 +94,32 @@ input:checked + label {
 	background: url(./aim.png), text;
 }
 
-.duck:nth-last-of-type(1) {
-	animation: duckfly1 linear 6s infinite;
+.duck:nth-last-of-type(6) {
+	animation: duckfly linear 6s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
-.duck:nth-last-of-type(2) {
-	animation: duckfly1 linear 7s infinite;
+.duck:nth-last-of-type(7) {
+	animation: duckfly linear 7s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
-.duck:nth-last-of-type(3) {
-	animation: duckfly1 linear 8s infinite;
+.duck:nth-last-of-type(8) {
+	animation: duckfly linear 8s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
-.duck:nth-last-of-type(4) {
-	animation: duckfly1 linear 9s infinite;
+.duck:nth-last-of-type(9) {
+	animation: duckfly linear 9s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
-.duck:nth-last-of-type(5) {
-	animation: duckfly1 linear 10s infinite;
+.duck:nth-last-of-type(10) {
+	animation: duckfly linear 10s infinite;
 	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
