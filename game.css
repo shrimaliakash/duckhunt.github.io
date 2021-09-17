@@ -217,3 +217,14 @@ body:before {
 	z-index: 1;
 	background: url(./background.png) repeat-x bottom left;
 }
+
+@media screen and (max-width: 540px) {
+    body {
+	margin: 0;
+	padding: 0;
+	cursor: url(./aim.png), text;
+	overflow: hidden;
+	height: 600px;
+	width: 400px;
+   }
+}
