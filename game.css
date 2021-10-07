@@ -218,23 +218,16 @@ body:before {
 	background: url(./background.png) repeat-x bottom left;
 }
 
-.row {
-	margin: 0px;
-	padding: 0px;
-	width: 560px;
-	height: 20px;
-}
-
-.row .col-md-6 {
-	margin: 0px;
-	padding: 0px;
-	float: left;
-}
-
-.row .col-lg-6 {
-	margin: 0px;
-	padding: 0px;
-	float: right;
+#level {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+	background-color: #dadada;
 }
 
 @media screen and (max-width: 540px) {
