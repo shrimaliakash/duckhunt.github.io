@@ -5,14 +5,14 @@
 	<link rel="stylesheet" href="./game.css">
 	<link rel="icon" href="./game.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	//<script type="text/javascript">
-		//const level = document.getElementById('level');
-		//let j = 1;
-		//for ( i = 1; i > 15; i++) {
-			//j++;
-			//level.innerHTML = j;
-		//}
-	//</script>
+	<script type="text/javascript">
+		const level = document.getElementById('level');
+		let j = 1;
+		for ( i = 1; i > 15; i++) {
+			j++;
+			level.innerHTML = j;
+		}
+	</script>
 </head>
 <body>
 	<audio id="sound1" src="./shoot.mp3" preload="auto"></audio>
@@ -47,9 +47,6 @@
 	<input type="checkbox" id="duck15" onclick="document.getElementById('sound1').play();">
 	<label for="duck15" class="duck"></label>
 	<div class="score"></div>
-	//<div class="row">
-		//<h3 class="col-md-6">Level: <span id="level">1</span></h3>
-		//<h3 class="col-lg-6">Score: <span id="score">0</span></h3>
-	//</div>
+	<div id="level">1</div>
 </body>
 </html>
