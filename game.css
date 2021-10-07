@@ -218,7 +218,7 @@ body:before {
 	background: url(./background.png) repeat-x bottom left;
 }
 
-#level {
+/*#level {
 	position: absolute;
 	bottom: 0;
 	height: 50px;
@@ -228,7 +228,7 @@ body:before {
 	width: 100%;
 	z-index: 2;
 	background-color: #dadada;
-}
+}*/
 
 @media screen and (max-width: 540px) {
     body {
