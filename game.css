@@ -216,6 +216,7 @@ body:before {
 	height: 100%;
 	z-index: 1;
 	background: url(./background.png) repeat-x bottom left;
+	overflow: hidden;
 }
 
 /*#level {
