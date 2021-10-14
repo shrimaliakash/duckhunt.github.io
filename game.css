@@ -1,24 +1,63 @@
 @charset "UTF-8";
 @keyframes duckfly {
 	0% {
-		left: 150%;
+		left: 10%;
 		top: 10%;
 	}
-	25% {
-		left: 80%;
+	10% {
+		left: 20%;
+		top: 20%;
+	}
+	20% {
+		left: 30%;
+		top: 30%;
+	}
+	30% {
+		left: 50%;
+		top: 40%;
+	}
+	40% {
+		left: 60%;
 		top: 50%;
 	}
 	50% {
-		left: 50%;
-		top: 30%;
+		left: 70%;
+		top: 60%;
 	}
-	75% {
-		left: 40%;
-		top: 30%;
+	60% {
+		left: 90%;
+		top: 70%;
 	}
+	70% {
+		left: 80%;
+		top: 60%;
+	}
+	80% {
+		left: 70%;
+		top: 50%;
 	100% {
-		left: -50%;
+		left: 80%;
 		top: 10%;
+	}
+	0% {
+		left: 10%;
+		top: 10%;
+	}
+	10% {
+		left: 20%;
+		top: 20%;
+	}
+	20% {
+		left: 30%;
+		top: 30%;
+	}
+	30% {
+		left: 50%;
+		top: 40%;
+	}
+	40% {
+		left: 60%;
+		top: 50%;
 	}
 }
 
