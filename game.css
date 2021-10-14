@@ -76,84 +76,99 @@ input + label {
 
 input:checked + label {
 	opacity: 0;
-	transition: 0.5s;
+	transition: all 0.5s;
 	transform: rotate(120deg);
 	transform-origin: 60%;
 	z-index: -5;
 }
 
 .duck:nth-last-of-type(1) {
-	animation: duckfly 10s linear 1s infinite;
+	animation: duckfly linear 1s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(2) {
-	animation: duckfly 20s linear 2s infinite;
+	animation: duckfly linear 2s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(3) {
-	animation: duckfly 30s linear 3s infinite;
+	animation: duckfly linear 3s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(4) {
-	animation: duckfly 40s linear 4s infinite;
+	animation: duckfly linear 4s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(5) {
-	animation: duckfly 50s linear 5s infinite;
+	animation: duckfly linear 5s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(6) {
-	animation: duckfly 10s linear 6s infinite;
+	animation: duckfly linear 6s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(7) {
-	animation: duckfly 20s linear 7s infinite;
+	animation: duckfly linear 7s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(8) {
-	animation: duckfly 30s linear 8s infinite;
+	animation: duckfly linear 8s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(9) {
-	animation: duckfly 40s linear 9s infinite;
+	animation: duckfly linear 9s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(10) {
-	animation: duckfly 50s linear 10s infinite;
+	animation: duckfly linear 10s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(11) {
-	animation: duckfly 10s linear 11s infinite;
+	animation: duckfly linear 11s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(12) {
-	animation: duckfly 20s linear 12s infinite;
+	animation: duckfly linear 12s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(13) {
-	animation: duckfly 30s linear 13s infinite;
+	animation: duckfly linear 13s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(14) {
-	animation: duckfly 40s linear 14s infinite;
+	animation: duckfly linear 14s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
 .duck:nth-last-of-type(15) {
-	animation: duckfly 50s linear 15s infinite;
+	animation: duckfly linear 15s infinite;
+	animation-direction: alternate;
 	background: url(./aim.png), text;
 }
 
