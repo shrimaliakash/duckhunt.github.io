@@ -6,40 +6,60 @@
 	<link rel="icon" href="./game.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Duck Hunt</title>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', () => {
+			const newGame = document.querySelector('#new_game');
+			const gameStart = document.querySelector('#game_start');
+			gameStart.style.display = "none";
+			newGame.addEventListener('click', GameStart);
+			function GameStart() {
+				document.styleSheets[0].addRule('body:before', 'z-index: 1;');
+				const body = document.querySelector('body');
+				gameStart.style.display = "block";
+				newGame.style.display = "none";
+			}
+		});
+	</script>
 </head>
+<div id="new_game">
+	<h1 id="duck_hunt">Duck Hunt</h1>
+	<h2>New Game</h2>
+</div>
 <body>
-	<audio id="sound1" src="./shoot.mp3" preload="auto"></audio>
-	<input type="checkbox" id="duck1" onclick="document.getElementById('sound1').play();">
-	<label for="duck1" class="duck"></label>
-	<input type="checkbox" id="duck2" onclick="document.getElementById('sound1').play();">
-	<label for="duck2" class="duck"></label>
-	<input type="checkbox" id="duck3" onclick="document.getElementById('sound1').play();">
-	<label for="duck3" class="duck"></label>
-	<input type="checkbox" id="duck4" onclick="document.getElementById('sound1').play();">
-	<label for="duck4" class="duck"></label>
-	<input type="checkbox" id="duck5" onclick="document.getElementById('sound1').play();">
-	<label for="duck5" class="duck"></label>
-	<input type="checkbox" id="duck6" onclick="document.getElementById('sound1').play();">
-	<label for="duck6" class="duck"></label>
-	<input type="checkbox" id="duck7" onclick="document.getElementById('sound1').play();">
-	<label for="duck7" class="duck"></label>
-	<input type="checkbox" id="duck8" onclick="document.getElementById('sound1').play();">
-	<label for="duck8" class="duck"></label>
-	<input type="checkbox" id="duck9" onclick="document.getElementById('sound1').play();">
-	<label for="duck9" class="duck"></label>
-	<input type="checkbox" id="duck10" onclick="document.getElementById('sound1').play();">
-	<label for="duck10" class="duck"></label>
-	<input type="checkbox" id="duck11" onclick="document.getElementById('sound1').play();">
-	<label for="duck11" class="duck"></label>
-	<input type="checkbox" id="duck12" onclick="document.getElementById('sound1').play();">
-	<label for="duck12" class="duck"></label>
-	<input type="checkbox" id="duck13" onclick="document.getElementById('sound1').play();">
-	<label for="duck13" class="duck"></label>
-	<input type="checkbox" id="duck14" onclick="document.getElementById('sound1').play();">
-	<label for="duck14" class="duck"></label>
-	<input type="checkbox" id="duck15" onclick="document.getElementById('sound1').play();">
-	<label for="duck15" class="duck"></label>
-	<div class="score"></div>
-	<div class="level"></div>
+	
+	<div id="game_start">
+		<audio id="sound1" src="./shoot.mp3" preload="auto"></audio>
+		<input type="checkbox" id="duck1" onclick="document.getElementById('sound1').play();">
+		<label for="duck1" class="duck"></label>
+		<input type="checkbox" id="duck2" onclick="document.getElementById('sound1').play();">
+		<label for="duck2" class="duck"></label>
+		<input type="checkbox" id="duck3" onclick="document.getElementById('sound1').play();">
+		<label for="duck3" class="duck"></label>
+		<input type="checkbox" id="duck4" onclick="document.getElementById('sound1').play();">
+		<label for="duck4" class="duck"></label>
+		<input type="checkbox" id="duck5" onclick="document.getElementById('sound1').play();">
+		<label for="duck5" class="duck"></label>
+		<input type="checkbox" id="duck6" onclick="document.getElementById('sound1').play();">
+		<label for="duck6" class="duck"></label>
+		<input type="checkbox" id="duck7" onclick="document.getElementById('sound1').play();">
+		<label for="duck7" class="duck"></label>
+		<input type="checkbox" id="duck8" onclick="document.getElementById('sound1').play();">
+		<label for="duck8" class="duck"></label>
+		<input type="checkbox" id="duck9" onclick="document.getElementById('sound1').play();">
+		<label for="duck9" class="duck"></label>
+		<input type="checkbox" id="duck10" onclick="document.getElementById('sound1').play();">
+		<label for="duck10" class="duck"></label>
+		<input type="checkbox" id="duck11" onclick="document.getElementById('sound1').play();">
+		<label for="duck11" class="duck"></label>
+		<input type="checkbox" id="duck12" onclick="document.getElementById('sound1').play();">
+		<label for="duck12" class="duck"></label>
+		<input type="checkbox" id="duck13" onclick="document.getElementById('sound1').play();">
+		<label for="duck13" class="duck"></label>
+		<input type="checkbox" id="duck14" onclick="document.getElementById('sound1').play();">
+		<label for="duck14" class="duck"></label>
+		<input type="checkbox" id="duck15" onclick="document.getElementById('sound1').play();">
+		<label for="duck15" class="duck"></label>
+		<div class="score"></div>
+	</div>
 </body>
 </html>
