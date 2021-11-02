@@ -214,22 +214,10 @@ body:before {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	z-index: 1;
+	z-index: -1;
 	background: url(./background.png) repeat-x bottom left;
 	overflow: hidden;
 }
-
-/*#level {
-	position: absolute;
-	bottom: 0;
-	height: 50px;
-	line-height: 50px;
-	font-size: 30px;
-	text-align: center;
-	width: 100%;
-	z-index: 2;
-	background-color: #dadada;
-}*/
 
 @media screen and (max-width: 540px) {
     body {
@@ -240,4 +228,12 @@ body:before {
 	height: 600px;
 	width: 400px;
    }
+}
+
+#new_game {
+	color: #ffff00;
+	font-size: 36px;
+	text-shadow: 2px 2px;
+	text-align: center;
+	padding-top: 150px;
 }
